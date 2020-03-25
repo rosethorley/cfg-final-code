@@ -1,0 +1,86 @@
+/*phone view*/
+@media only screen and
+(min-width: 320px) {
+    h1 {color:darkgray;}
+}
+/*tablet view*/
+@media only screen and
+(min-width:768px) {
+    h1 {color:grey;}
+}
+/*desktop view*/
+@media only screen and 
+(min-width:980px) {
+    h1 {color: black;}
+}
+
+/*main class*/
+.cheese{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*navigation colour*/
+.topnav{
+    background-color: darkgrey;
+    overflow: hidden;
+}
+
+/*link style*/
+.topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*link color hover*/
+.topnav a:hover {
+    background-color: lightgray;
+    color: black;
+}
+
+/*active link*/
+.topnav a.active {
+    background-color: gray;
+    color: lightgray;
+}
+
+/*product image zoom*/
+.zoom:hover{
+transform: scale(1.5);
+}
+
+/*buy now button*/
+.button {
+    background-color: gray;
+    font-size: 17px;
+    padding: 10px 24px;
+    color: honeydew;
+    text-align: center;
+    border-radius: 12xp;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+/*submit button*/
+.button2 {
+    background-color: gray;
+    font-size: 17px;
+    padding: 5px 15px;
+    color: honeydew;
+    text-align: center;
+    border-radius: 5xp;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button2:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
